@@ -51,7 +51,7 @@ def changeTime(folder, start_time):
     '''
     # 读入文件夹下所有文件，并naturally排序
     files = natsorted([os.path.join(folder, f) for f in os.listdir(folder) if os.path.isfile(os.path.join(folder, f))])
-    print(files)
+
     # 更改每一个文件的时间
     for count, f in enumerate(files):
         this_time = start_time + datetime.timedelta(minutes=count)
