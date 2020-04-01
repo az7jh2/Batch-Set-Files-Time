@@ -15,7 +15,7 @@ Windows下批量更改指定文件夹中（不包括子文件夹）所有文件�
 ## Usage
 ```bash
 python set_time.py [option][value]...
-    -h or --help
+    -h or --help   "print this help infos"
     -i or --input  "folder for input，with absolute or relative path"
     -t or --time   "start time for the first file in the floder, with the format YYYY-MM-DD-HH-MM-SS"
 ```
